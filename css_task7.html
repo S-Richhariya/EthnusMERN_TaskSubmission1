@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shubh_CSStask-7</title>
+        <style>
+            body {
+                background-color: #a22b55;
+                color: aliceblue;
+                display: flex;
+                justify-content: center; /* Center content horizontally */
+                align-items: center; /* Center content vertically */
+                height: 100vh; /* Ensure the body covers the entire viewport height */
+                margin: 0; /* Remove default margin */
+            }
+            form {
+                background-color: #75213e;
+                padding: 20px;
+                width: 60%;
+                max-width: 400px; /* Set a maximum width for the form */
+            }
+        </style>
+        
+    </head>
+    <body>
+        <form>
+        <center>
+            <table>
+            <tr>
+                <td>
+                    <label for="name">Name:</label>
+                </td>
+                <td  style="padding-left:60px;">
+                    <input type="text" name="name" placeholder="your name">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="email">Email:</label>
+                </td>
+                <td  style="padding-left:60px;">
+                    <input type="email" name="email" placeholder="your email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password:</label>
+                </td>
+                <td  style="padding-left:60px;">
+                    <input type="password" name="password" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="tel">Phone Number:</label>
+                </td>
+                <td  style="padding-left:60px;">
+                    <input type="tel" name="tel" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gen">Gender:</label>
+                </td>
+                <td style="padding-left:60px;">
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                    <input type="radio" name="gender" value="Others">Others
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lan">language</label>
+                </td>
+                <td style="padding-left:60px;">
+                    <select name="language"><br><br>
+                        <option value="English">English</option>
+                        <option value="Hindi">Hindi</option>
+                        <option value="French">French</option>
+                        <option value="Spanish">Spanish</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="zip">Zip code:</label>
+                </td>
+                <td style="padding-left:60px;">
+                    <input type="number" name="zip">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="about">About:</label> 
+                </td>
+                <td style="padding-left:60px;">
+                    <textarea name="about" value="write about yourself"></textarea>
+                </td>
+            </tr>
+        </table>
+            <center>
+                 <input type="submit" value="Register">
+            </center>
+       
+        </center>
+       </form>
+</body>
+</html>
